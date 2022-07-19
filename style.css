@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+  background-color: white;
+  text-align: center;
+  font-family: Noto Sans, sans-serif;
+}
+
+header {
+  
+}
+
+main {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0;
+  margin-right: 20%
+  margin-left: 20%;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: black;
+  padding-top: 1em;
+  padding-bottom: 1rem;
+}
+
+p {
+  color: #333;
+}
+
+
+/* STYLE IMAGES */
+#headshot {
+  max-height: 20%;
+  max-width: 20%;
+  border-radius: 95%;
+  border: 3px solid white;
+  margin-top: 2em; 
+}
+
+#swim {
+  margin-top: 1em; 
+  margin-bottom: 1em;
+}
+
+
+
+.hobby {
+  border-radius: 100%;
+  margin: 5px;
+}
+
+.hobby img {
+  height: 10em;
+}
+
+/* STYLE NAV BAR */
+nav {
+  background-color: #003046;
+  color: #e1e6e8;
+  overflow: hidden;
+  padding: 1em;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #333; 
+}
